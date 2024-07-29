@@ -11,27 +11,50 @@ app.get('/post', (req, res) => {
   res.send('Return posts successfully');
 });
 
-app.get('/post/:id', (req, res) => {
-  const id = req.params.id;
-  res.send(
-    `This is post with id: ${id}". Trong đó ${id} là id của bài post lấy từ url params`
-  );
-});
-
-app.post('/post/:id', (req, res) => {
-  res.send('Create new post successfully');
+app.post('/post', (req, res) => {
+  const { title, content, author } = req.body;
+  const data = {
+    data: {
+      title,
+      content,
+      author
+    },
+    message: 'Post created successfully'
+  };
+  res.json(data);
 });
 
 app.put('/post/:id', (req, res) => {
-  res.send('Update  post successfully');
+  const { id } = req.params;
+  const { title, content, author } = req.body;
+  const data = {
+    data: {
+      title,
+      content,
+      author
+    },
+    message: `Post update ${id} successfully`
+  };
+  res.json(data);
 });
 
 app.patch('/post/:id', (req, res) => {
-  res.send('Update  post successfully');
+  const { id } = req.params;
+  const { title, content, author } = req.body;
+  const data = {
+    data: {
+      title,
+      content,
+      author
+    },
+    message: `Post update ${id} successfully`
+  };
+  res.json(data);
 });
 
 app.delete('/post/:id', (req, res) => {
-  res.send('Delete post successfully');
+  const { id } = req.params;
+  res.send(`Delete post successfully ${id}`);
 });
 
 app.listen(port, () => {
