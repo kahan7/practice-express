@@ -1,0 +1,56 @@
+[
+  {
+    "departmentId": 1,
+    "name": "k",
+    "age": "14",
+    "phone": "123",
+    "role": "manager",
+    "email": "nguyenvana@gmail.com",
+    "salary": 10
+  },
+  {
+    "departmentId": 2,
+    "name": "kss",
+    "age": "14",
+    "phone": "123",
+    "role": "manager",
+    "email": "nguyenvanb@gmail.com",
+    "salary": 12
+  },
+  {
+    "departmentId": 2,
+    "name": "kssss",
+    "age": "14",
+    "phone": "123",
+    "role": "staff",
+    "email": "nguyenvancb@gmail.com",
+    "salary": 19
+  },
+  {
+    "departmentId": 3,
+    "name": "kss",
+    "age": "14",
+    "phone": "123",
+    "role": "manager",
+    "email": "nguyenvanc@gmail.com",
+    "salary": 14
+  },
+  {
+    "departmentId": 1,
+    "name": "kss",
+    "age": "14",
+    "phone": "123",
+    "role": "staff",
+    "email": "nguyenvand@gmail.com",
+    "salary": 100
+  },
+  {
+    "departmentId": 1,
+    "name": "kssádsadas",
+    "age": "14",
+    "phone": "123sdasd",
+    "email": "nguyenvanhu@gmail.com",
+    "salary": 900,
+    "role": "manager"
+  }
+]

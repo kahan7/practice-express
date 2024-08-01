@@ -1,0 +1,17 @@
+[
+  {
+    "directorId": 1,
+    "name": "diningroom",
+    "description": "good"
+  },
+  {
+    "directorId": 2,
+    "name": "bedroom",
+    "description": "good"
+  },
+  {
+    "directorId": 3,
+    "name": "meetingroom",
+    "description": "good"
+  }
+]
